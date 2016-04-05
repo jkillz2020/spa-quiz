@@ -3,21 +3,22 @@ var CarLot = (function () {
   var privateInventory = [];
 
   return {
-  loadCars: function () {
-    //create XHR to load cars
-    var inventoryLoader = new XMLHttpRequest();
-    inventoryLoader.addEventListener("load", function () {
-//set value to private array
-    privateInventory = JSON.parse(this.responseText).inventory;
-    console.log("privateInventory", privateInventory);
-    loadCars.open("GET", "inventory.json");
-    loadCars.send();
+    loadCars: function () {
+      //create XHR to load cars
+      var inventoryLoader = new XMLHttpRequest();
+      inventoryLoader.addEventListener("load", function () {
+      //set value to private array
+      privateInventory = JSON.parse(this.responseText).inventory;
+      console.log("privateInventory", privateInventory);
+      loadCars.open("GET", "inventory.json");
+      loadCars.send();
     });
   
-CarLot.loadCars();
     }
   }
 })();
+
+CarLot.loadCars();
 
 // function listCars(inventory) {
 //   var list = document.getElementsByClassName("container");
@@ -34,7 +35,8 @@ CarLot.loadCars();
 //     outputString += `<h5>${currentCar.color}</h5>`;
 //     outputString += `<h5>${currentCar.purchased}</h5>`;
 //     outputString += `<h5>${currentCar.description}</h5>`;
-
 //   }
+//   
+//  list.innerHTML = outputString;
 // }
 
