@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Lot</title>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Killer Kars</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  <h1>Car Inventory</h1>
+  <div class="container"></div>
+
+
+  <script type="text/javascript" src="CarLot.js"></script>
+  <!-- <script type="text/javascript" src="quiz.js"></script>
+  <script type="text/javascript" src="eventlistener.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- Create an array of cars in the inventory.json file (see example structure below). Put at least three cars in the array.
+When your page first loads, you need to use an XHR to load the contents of the JSON file, and parse them into a native JavaScript object.
+Loop over your array of cars and build up an HTML string to build a card for each car. Also, use Bootstrap to create rows. Each row should contain 3 columns. Make sure you have a parent element with a class of container.
+Put a standard Bootstrap navbar element at the top of your page.
+Put only two elements in the navbar.
+A text input field.
+A button.
+Make sure you display all properties of the car in the DOM. Basic styling is up to you.
+Put a border around the car information that matches the color of the car. To make this easier, set the color property value to an existing named CSS color.
+When you click on one of the car elements, change the width of the border to a higher value, and change the background color to any other color of your choosing.
+Also, on click of the car element, clear the value of the text input in the navbar, and put the cursor in the text input.
+When you start typing into the navbar's text input, the description of the currently selected car should be bound to what you are typing in and match it exactly.
+Technical Requirements
+
+Create one global variable (e.g. CarLot) and use the IIFE pattern to augment it two times in separate JavaScript files.
+The first IIFE should add a public function (e.g. loadInventory) that loads the inventory.json file and stores the inventory in a private variable. It should also expose a public getter to read the array of cars (e.g. getInventory).
+The second IIFE should augment the original one with a function that creates all of the eventHandlers that you need for the application. Name the function activateEvents.
+The final IIFE should augment the object with two more functions. One function resets the border thickness and background color for each car element back to the original values. The other function changes the thickness of the border of a car element, and changes its background color. The function must accept two arguments.
+A car DOM element that was clicked on.
+A color name.
+ -->

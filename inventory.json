@@ -1,0 +1,51 @@
+{
+  "cars": [{
+    "make": "Nissan",
+    "model": "Rogue",
+    "year": "2006",
+    "price": "8999",
+    "color": "FireBrick",
+    "purchased": false,
+    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+  }, {
+    "make": "Chevrolet",
+    "model": "Chevelle SS",
+    "year": "1972",
+    "price": "60000",
+    "color": "LightBlue",
+    "purchased": false,
+    "description": "This is an immaculate 1972 Chevrolet Chevelle with only 15000 miles on original 454 cubic inch motor . Matching numbers."
+  }, {
+    "make": "Nissan",
+    "model": "Rogue",
+    "year": "2006",
+    "price": "8999",
+    "color": "FireBrick",
+    "purchased": false,
+    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+  }, {
+    "make": "Nissan",
+    "model": "Rogue",
+    "year": "2006",
+    "price": "8999",
+    "color": "FireBrick",
+    "purchased": false,
+    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+  }, {
+    "make": "Nissan",
+    "model": "Rogue",
+    "year": "2006",
+    "price": "8999",
+    "color": "FireBrick",
+    "purchased": false,
+    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+  }, {
+    "make": "Nissan",
+    "model": "Rogue",
+    "year": "2006",
+    "price": "8999",
+    "color": "FireBrick",
+    "purchased": false,
+    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+  }]
+}
