@@ -1,4 +1,4 @@
-"use strict"
+
 var CarLot = (function () {
   var privateInventory = [];
 
@@ -8,14 +8,17 @@ var CarLot = (function () {
       var loader = new XMLHttpRequest();
       //add event listener for "load" and set anonymous callback function
       loader.addEventListener("load", function () {
-      console.log("loader", loader);
       //set value to private array
       privateInventory = JSON.parse(this.responseText).cars;
+    });
       loader.open("GET", "inventory.json");
       loader.send();
-    });
-  
+    getInventory: function() {
+ // It should also expose a public getter to read the array of cars (e.g. getInventory)
+  return privateInventory;
+      }
     }
+console.log("privateInventory", privateInventory);
   }
 })();
 
