@@ -6,22 +6,20 @@ var CarLot = (function () {
     loadCars: function () {
       //create XHR to load cars
       var loader = new XMLHttpRequest();
+      loader.open("GET", "inventory.json");
+      loader.send();
       //add event listener for "load" and set anonymous callback function
       loader.addEventListener("load", function () {
+      privateInventory = JSON.parse(this.responseText).cars;
       });
       //set value to private array
-      privateInventory = JSON.parse(this.responseText).cars;
 console.log("privateInventory", privateInventory);
         }
     },
-
-      loader.open("GET", "inventory.json");
-      loader.send();
     getInventory: function() {
-        return privateInventory;
-        }
+        return privateInventory; 
     }
- ) 
+ }
 }();
 
 CarLot.loadCars();
