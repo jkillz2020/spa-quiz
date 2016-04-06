@@ -8,19 +8,21 @@ var CarLot = (function () {
       var loader = new XMLHttpRequest();
       //add event listener for "load" and set anonymous callback function
       loader.addEventListener("load", function () {
+      });
       //set value to private array
       privateInventory = JSON.parse(this.responseText).cars;
-    });
+console.log("privateInventory", privateInventory);
+        }
+    },
+
       loader.open("GET", "inventory.json");
       loader.send();
     getInventory: function() {
- // It should also expose a public getter to read the array of cars (e.g. getInventory)
-  return privateInventory;
-      }
+        return privateInventory;
+        }
     }
-console.log("privateInventory", privateInventory);
-  }
-})();
+ ) 
+}();
 
 CarLot.loadCars();
 
