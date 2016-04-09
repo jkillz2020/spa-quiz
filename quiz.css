@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  background-color: orange;
+}
+
+.card {
+  display:  inline-block;
+  float: left;
+  margin: 4px;
+  background: lightgrey;
+  width: 30%;
+  word-wrap: break-word;
+}
+
+.selcted {
+  border-width: 8px !important;
+  background-color: pink;
+  word-wrap: break-word;
+}

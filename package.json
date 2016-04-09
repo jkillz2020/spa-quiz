@@ -1,0 +1,22 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CarLot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkillz2020/spa-quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkillz2020/spa-quiz/issues"
+  },
+  "homepage": "https://github.com/jkillz2020/spa-quiz#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
