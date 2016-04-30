@@ -1,12 +1,12 @@
 {
   "cars": [{
-    "make": "Nissan",
-    "model": "Rogue",
-    "year": "2006",
-    "price": "8999",
-    "color": "FireBrick",
+    "make": "Chevrolet",
+    "model": " Z06 Corvette",
+    "year": "2016",
+    "price": "80000",
+    "color": "chartreuse",
     "purchased": false,
-    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    "description": "This is an immaculate 2016 Chevrolet Corvette with 0 miles on it. Leather seats, power everything."
   }, {
     "make": "Chevrolet",
     "model": "Chevelle SS",
@@ -16,36 +16,36 @@
     "purchased": false,
     "description": "This is an immaculate 1972 Chevrolet Chevelle with only 15000 miles on original 454 cubic inch motor ."
   }, {
-    "make": "Nissan",
-    "model": "Rogue",
-    "year": "2006",
-    "price": "8999",
-    "color": "FireBrick",
+    "make": "Dodge",
+    "model": "Charger",
+    "year": "1968",
+    "price": "67000",
+    "color": "SlateGray",
     "purchased": false,
-    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    "description": "This is an immaculate 1968 Dodge Charger with only 25000 miles on it. Be like Bo and Luke Duke!"
   }, {
-    "make": "Nissan",
-    "model": "Rogue",
-    "year": "2006",
-    "price": "8999",
-    "color": "FireBrick",
+    "make": "Porsche",
+    "model": "911 GT3",
+    "year": "2015",
+    "price": "95000",
+    "color": "darkorange",
     "purchased": false,
-    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    "description": "This is an immaculate 2015 Porsche 911 GT3 with only 15000 miles on it. Leather seats, power everything."
   }, {
-    "make": "Nissan",
-    "model": "Rogue",
-    "year": "2006",
-    "price": "8999",
-    "color": "FireBrick",
+    "make": "Audi",
+    "model": "R8",
+    "year": "2012",
+    "price": "99999",
+    "color": "ghostwhite",
     "purchased": false,
-    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    "description": "This is an immaculate 2012 Audi R8 with only 20000 miles on it. V-10."
   }, {
-    "make": "Nissan",
-    "model": "Rogue",
-    "year": "2006",
-    "price": "8999",
-    "color": "FireBrick",
+    "make": "Bugatti",
+    "model": "Chiron",
+    "year": "2017",
+    "price": "1000000",
+    "color": "cornflowerblue",
     "purchased": false,
-    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    "description": "This is an immaculate 2017 Bugatti Chiron with 0 miles on it. Pinnacle of performance."
   }]
 }

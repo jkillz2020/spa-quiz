@@ -1,14 +1,15 @@
 "use strict";
 var CarLot = (function(originalCarLot) {
- originalCarLot.listCars = function(){
+ originalCarLot.listCars = function(populateCars){
     var list = document.getElementsByClassName("container")[0];
     var outputString = "";
-    var populateCars = CarLot.getInventory(); 
+    // var populateCars = CarLot.getInventory(); 
+    // console.log(populateCars);
     for (var i = 0; i < populateCars.length; i++) {
     var currentCar = populateCars[i];
 
     //build DOM string
-    outputString += `<div class = ".col-md-4 card" style = "border: solid 3px ${currentCar.color}"><h1>${currentCar.make}</h1>`;
+    outputString += `<div class = "col-md-4 card" style = "border: solid 3px ${currentCar.color}"><h1>${currentCar.make}</h1>`;
     outputString += `<h3>${currentCar.model}</h3>`;
     outputString += `<h5>${currentCar.year}</h5>`;
     outputString += `<h5>${currentCar.price}</h5>`;
@@ -19,12 +20,18 @@ var CarLot = (function(originalCarLot) {
   
       }
  list.innerHTML = outputString;
+CarLot.activateEvents();
     };
+
+
     return originalCarLot;
     
-addClickEvent();
 
-})(CarLot || {});
+   
+ })(CarLot || {})
+
+
+
 
 // // Load the inventory and send a callback function to be
 // // invoked after the process is complete

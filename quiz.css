@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: orange;
+  background-color: darkslategray;
 }
 
 .card {
@@ -12,8 +12,8 @@ body {
   word-wrap: break-word;
 }
 
-.selcted {
+.selected {
   border-width: 8px !important;
-  background-color: pink;
+  background-color: limegreen;
   word-wrap: break-word;
 }
