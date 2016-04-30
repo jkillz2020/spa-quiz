@@ -1,15 +1,18 @@
 body {
   text-align: center;
   background-color: darkslategray;
+  box-sizing: border-box;
 }
 
 .card {
   display:  inline-block;
   float: left;
-  margin: 4px;
+  margin: 18px;
   background: lightgrey;
   width: 30%;
+  height: 300px;
   word-wrap: break-word;
+  box-sizing: border-box;
 }
 
 .selected {

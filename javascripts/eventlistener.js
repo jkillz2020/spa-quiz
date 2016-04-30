@@ -20,15 +20,13 @@ originalCarLot.removeSelected = function() {
   }
 }
 
-function newDescription(){
-  userinput.addEventListener("click", function(event){
-    if (currentCar.classList.contains("selected")) {
-      let newInfo = event.userinput.value;
-    currBio.innerHTML = newBio;
-  
-      if (event.keyCode === 13){
-        currentInfo.innerHTML = newInfo;
-        userinput.value = "";
+originalCarLot.newDescription = function(){
+  userinput.addEventListener("keyup", function(event){
+    var currentCar = document.getElementsByClassName("card");
+  for (let i = 0; i < currentCar.length; i++){
+    if (currentCar[i].classList.contains("selected")) {
+      console.log(currentCar[i]);
+       currentCar[i].lastElementChild.innerHTML= userinput.value;
         }
       }
   })

@@ -21,6 +21,7 @@ var CarLot = (function(originalCarLot) {
       }
  list.innerHTML = outputString;
 CarLot.activateEvents();
+CarLot.newDescription();
     };
 
 
